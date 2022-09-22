@@ -1,0 +1,45 @@
+node-immediate (3.3.0+dfsg-2) unstable; urgency=medium
+
+  * Team upload
+  * Do not depends on nodejs
+
+ -- Bastien Roucariès <rouca@debian.org>  Fri, 24 Sep 2021 22:19:21 +0000
+
+node-immediate (3.3.0+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-immediate: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 3.3.0+dfsg
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 19 Dec 2020 12:41:18 +0100
+
+node-immediate (3.2.3+dfsg-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Bump debhelper compatibility level to 12
+  * Update VCS fields to salsa
+  * Clean repo
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 19 Mar 2020 21:21:22 +0100
+
+node-immediate (3.2.3+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #873963)
+
+ -- Kartik Kulkarni <kartik.koolks@gmail.com>  Sat, 02 Sep 2017 12:42:28 +0000

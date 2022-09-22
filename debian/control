@@ -1,0 +1,32 @@
+Source: node-immediate
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Kartik Kulkarni <kartik.koolks@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+ , node-tape <!nocheck>
+ , node-tap <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-immediate
+Vcs-Git: https://salsa.debian.org/js-team/node-immediate.git
+Homepage: https://github.com/calvinmetcalf/immediate
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-immediate
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Immediate is a cross browser microtask library
+ immediate is a microtask library decended from
+ NobleJS's setImmediate package and includes ideas
+ from Cujo's When and RSVP package.
+ .
+ immediate takes tricks from setImmedate and RSVP
+ and combines them with the schedualer inspired by whens.
+ .
+ tricks are tasks mentioned from setImmediate package
+ which are run as necessary.
+ .
+ Node.js is an event-based server-side JavaScript engine.
